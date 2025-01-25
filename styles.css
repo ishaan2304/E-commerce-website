@@ -30,7 +30,7 @@ p{
 }
 .section-p1{
     padding: 10px 80px;
-}
+}  
 .section-m1{
     margin: 40px 0;
 }
@@ -41,9 +41,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 5px 10px;
     background-color: antiquewhite;
-    box-shadow: 0 5px 15px hsl(0, 42%, 70%);
+    box-shadow: 0 5px 15px hsl(0, 33%, 56%);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0%;
 }
 #navbar{
     display: flex;
@@ -84,4 +88,183 @@ body{
     height: 90vh;
     width: 100%;
     background-position:top 25% right 0 ;
+    padding:0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    #hero {
+        padding: 0 20px;
+        background-position: center;
+    }
+    #hero h1 {
+        font-size: 1.8rem;
+    }
+}
+#hero h4{
+    color: rgb(82, 55, 55);
+    padding-bottom: 15px;
+    background: linear-gradient(90deg, #4135e4, #e1a128);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#hero h2 {
+    font-size: 2.5rem;
+    color: #f4f4f4;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 5px 0;
+    background: linear-gradient(90deg, #ff8c00, #ff6347);
+    background-clip: text;
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out;
+}
+
+#hero h1:hover {
+    transform: scale(1.05);
+}
+#hero h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000; /* Black color for the text */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    margin: 10px 0;
+    padding: 5px 0;
+    text-transform: capitalize;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#hero h2:hover {
+    color: #280a7ba2;
+    transform: translateY(-5px);
+}
+
+#hero p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    max-width: 80%;
+    text-align: center;
+}
+#hero button{
+    background-image: url(button.png);
+    background-color: transparent;
+    color: #222;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: 16px;
+}
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 15px 15px 34px rgb(0, 0,0, 0.3);
+    border: 1px solid #fae6e6;
+    border-radius: 85px;
+    margin: 15px 0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+#feature .fe-box:hover{
+ box-shadow: 8px 8px 45px rgb(70, 62, 221,0.1);
+ transform: scale(1.02);
+}
+#feature .fe-box h6{
+    color: #000000;
+    background: linear-gradient(90deg, #ff7f50, #6a5acd); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom:10px ;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid hsl(0, 29%, 75%);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgb(157, 9, 9,0.02);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin: 15px 0;
+    position: relative;
+}
+#product1 .pro:hover{
+    box-shadow:20px 20px 30px rgba(157, 9, 9, 0.6);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: #7d2e06;
+    font-size: 12px;
+}
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+
+    color: yellowgreen;
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #465b52;
+}
+#product1 .pro .cart-icon{
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 50px;
+   background-color: hsl(0, 21%, 87%);
+   font-weight: 500;
+   color: #000000;
+   border: 1px solid wheat;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
 }
