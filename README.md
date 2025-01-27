@@ -31,3 +31,4 @@ cd E-commerce-website
   index.html    # Main HTML file
   README.md     # Project documentation
  ```
+# MIT License
