@@ -2,7 +2,7 @@
 # Sanvya - E-commerce Clothing Website 👗🛍️
 Welcome to the Sanvya project, an E-commerce website developed as part of my internship at InternPe. This website is a prototype for an online clothing store, showcasing a range of trendy clothing items with a responsive and interactive design.  
 # Project Overview 🌟
-Sanvya is a clothing brand prototype designed to offer a modern and user-friendly shopping experience. This project was created using HTML, CSS, and JavaScript to demonstrate front-end web development skills and build a responsive, interactive website.  
+Sanvya is a clothing brand prototype designed to offer a modern and user-friendly shopping experience. This project was created using HTML, CSS, and JavaScript to demonstrate front-end web development skills and build a responsive, interactive website. SGGSFG 
 
 # Features ✨
 
