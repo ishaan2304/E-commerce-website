@@ -33,5 +33,3 @@ cd E-commerce-website
   README.md     # Project documentation
  ```
 Feel free to give feedback and suggestion
-
-# MIT License
