@@ -22,7 +22,6 @@ git clone https://github.com/ishaan2304/Responsive-E-commerce-Website-.git
 cd E-commerce-website
  ```  
 3. Open the ```index.html ```  file in your preferred browser.
- 
 # Project Structure 🗂
 ```bash
 /sanvya
