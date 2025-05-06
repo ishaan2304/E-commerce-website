@@ -2,9 +2,6 @@
 # Sanvya - E-commerce Clothing Website 👗🛍️
 Welcome to the Sanvya project, an E-commerce website. This website is a prototype for an online clothing store, showcasing a range of trendy clothing items with a responsive and interactive design.    
 
-# Project Overview 
-Sanvya is a clothing brand prototype designed to offer a modern and user-friendly shopping experience. This project was created using HTML, CSS, and JavaScript to demonstrate front-end web development skills and build a responsive, interactive website. SGGSFG 
-
 # Features 
 
 **Fully Responsive Design 📱💻:** The website is responsive and works well across all devices including desktop, tablet, and mobile.      
