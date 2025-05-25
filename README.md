@@ -4,7 +4,7 @@ Welcome to the Sanvya project, an E-commerce website. This website is a prototyp
 
 # Features 
 
-**Fully Responsive Design 📱💻:** The website is responsive and works well across all devices including desktop, tablet, and mobile.      
+**Fully Responsive Design :** The website is responsive and works well across all devices including desktop, tablet, and mobile.      
 **Interactive Product Selection 🛒:** JavaScript-driven functionality for adding items to the cart and updating the cart dynamically.  
 **Clean and Modern UI 🎨:** A simple, modern interface with easy navigation to enhance the user experience.  
 **User-Focused Experience ❤️:** Smooth navigation, quick load times, and a focus on providing a seamless online shopping experience.  
