@@ -1,5 +1,5 @@
 
-# Sanvya - E-commerce Clothing Website 👗🛍️
+# Sanvya - E-commerce Clothing Website 
 Welcome to the Sanvya project, an E-commerce website. This website is a prototype for an online clothing store, showcasing a range of trendy clothing items with a responsive and interactive design.    
 
 # Features 
